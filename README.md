@@ -1,2 +1,2 @@
 # rsschool-cv
-https://PerCreate.github.io/rsschool-cv/html
+https://PerCreate.github.io/rsschool-cv/index
