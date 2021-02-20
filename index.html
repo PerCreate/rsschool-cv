@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CV Pershin Konstantin</title>
+</head>
+<body>
+  <div class="centering">
+  <p class="img-with"><img src="111.jpg"> </p>
+  <p>1. Pershin Konstantin</p>
+  <p>2. Email: kostya.pershin007@gmail.com  phone number: 89967340182</p>
+  <p>3. I am a 2nd year student at the Polytechnic University, I am fond of programming and want to work in this field. Studying web programming (CSS, HTML, JS). I like programming in itself, and the web precisely because you interact most with the visual component of the project</p>
+    <p>4. CSS, HTML, JS(average level), git, GitHub, VSCode, command line.</p>
+      <p>5. Code examples: 
+        <p>Logic of simple game:
 
+          <p>```
+    import readlineSync from 'readline-sync';<br>
+
+const sameGameLogic = (question1, answer1, question2, answer2, question3, answer3, userName) => { <br>
+  const numbers = [[question1, answer1], [question2, answer2], [question3, answer3]];<br>
+  for (let i = 0; i < numbers.length; i += 1) {<br>
+    console.log(`Question: ${numbers[i][0]}`);<br>
+    const userAnswer = readlineSync.question('Your answer: ');<br>
+    if (userAnswer === numbers[i][1]) console.log('Correct!');<br>
+    else if (userAnswer !== numbers[i][1]) return console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${numbers[i][1]}. \nLet's try again, ${userName}!`);<br>
+  }<br>
+  return console.log(`Congratulations, ${userName}!`);<br>
+};<br>
+export default sameGameLogic;<br>
+```</p>
+<p>6. Studied at Hexlet courses, made a one-page website and a small console game.</p>
+<p>7. Still unfinished courses, bachelor of university</p>
+<p>8. English level - B2. There was a practice of spoken English at a university lesson and a restaurant where I worked part-time (communicated with guests)</p>
+</div>
+
+</body>
+</html>
