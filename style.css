@@ -1,18 +1,129 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    background: #E5E5E5;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    font:16px Helvetica, sans-serif;
 }
 
-.centering {
-    width: 1000px;
-    line-height: 25px;
+body {
+    margin: 100px ;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.25), -4px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-.centering p img {
-    height: 350px;
-    float: right;
-    padding-left: 15px;
+
+main {
+    width: 650px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
+main h1 {
+    font-weight: 600;
+    font-size: 70px;
+    color: #000000;
+}
+
+main hr {
+    height: 2px;
+    background: #000000;
+}
+
+main article span {
+    line-height: 19px;
+    font-size: 16px;
+}
+
+sidebar {
+    background: #2A2E37;
+    width: 280px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 35px;
+    color:#FFFFFF;
+}
+
+aside h2 {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+aside h4 {
+    margin-bottom: 6px ;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+aside img {
+    height: 180px;
+    border-radius: 200px;
+}
+
+.contact-info {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+aside span a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+span.line {
+    display: block;
+    width: 220px;
+    height: 8px;
+
+    background: black;
+    border-radius: 4px;
+}
+
+span.line span {
+    display: block;
+    background: white;
+    border-radius: 4px;
+}
+
+span.scale-CSS {
+    width: 139.37px;
+    height: 8px;
+}
+
+span.scale-HTML {
+    width: 139.37px;
+    height: 8px;
+}
+
+span.scale-JS {
+    width: 90px;
+    height: 8px;
+}
+
+span.scale-Git {
+    width: 100px;
+    height: 8px;
+}
+
+span.scale-GitHub {
+    width: 120px;
+    height: 8px;
+}
+
+span.scale-VSCode {
+    width: 139.37px;
+    height: 8px;
+}
+
+span.scale-CommandLine {
+    width: 120px;
+    height: 8px;
+}
+

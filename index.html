@@ -1,41 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>CV Pershin Konstantin</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>CV Pershin Konstantin</title>
 </head>
+
 <body>
-  <div class="centering">
-  <p class="img-with"><img src="111.jpg"> </p>
-  <p>1. Pershin Konstantin</p>
-  <p>2. Email: kostya.pershin007@gmail.com  phone number: 89967340182</p>
-  <p>3. I am a 2nd year student at the Polytechnic University, I am fond of programming and want to work in this field. Studying web programming (CSS, HTML, JS). I like programming in itself, and the web precisely because you interact most with the visual component of the project</p>
-    <p>4. CSS, HTML, JS(average level), git, GitHub, VSCode, command line.</p>
-      <p>5. Code examples: 
-        <p>Logic of simple game:
+  <sidebar>
+    <aside class="img-block"><img src="Untitled.png" alt="MyPhoto"></aside>
+    <aside>
+      <h2>CONTACT ME</h2>
+      <hr>
+      <div class="contact">
+        <div class="phone-block">
+          <span class="img-span-phone"></span>
+          <h4>Phone</h4>
+          <span class="contact-info">8 (930) 684-86-52</span>
+        </div>
+        <div class="mail-block">
+          <span class="phone"></span>
+          <span class="contact-info"></span>
+          <h4>Email</h4>
+          <span class="email">kostya.pershin007@gmail.com</span>
+        </div>
+      </div>
+    </aside>
+    <aside>
+      <h2>PRO SKILLS</h2>
+      <hr>
+      <h4>CSS</h4>
+      <span class="line"><span class="scale-CSS"></span></span>
+      <h4>HTML</h4>
+      <span class="line"><span class="scale-HTML"></span></span>
+      <h4>JS</h4>
+      <span class="line"><span class="scale-JS"></span></span>
+      <h4>Git</h4>
+      <span class="line"><span class="scale-Git"></span></span>
+      <h4>GitHub</h4>
+      <span class="line"><span class="scale-GitHub"></span></span>
+      <h4>VSCode</h4>
+      <span class="line"><span class="scale-VSCode"></span></span>
+      <h4>Command Line</h4>
+      <span class="line"><span class="scale-CommandLine"></span></span>
+    </aside>
+    <aside>
+      <h2>FOLLOW ME</h2>
+      <hr>
+      <h4>VK</h4>
+      <span class="VK-link"><a href="https://vk.com/id441456022">https://vk.com/id441456022</a></span>
+    </aside>
+  </sidebar>
 
-          <p>```
-    import readlineSync from 'readline-sync';<br>
-
-const sameGameLogic = (question1, answer1, question2, answer2, question3, answer3, userName) => { <br>
-  const numbers = [[question1, answer1], [question2, answer2], [question3, answer3]];<br>
-  for (let i = 0; i < numbers.length; i += 1) {<br>
-    console.log(`Question: ${numbers[i][0]}`);<br>
-    const userAnswer = readlineSync.question('Your answer: ');<br>
-    if (userAnswer === numbers[i][1]) console.log('Correct!');<br>
-    else if (userAnswer !== numbers[i][1]) return console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${numbers[i][1]}. \nLet's try again, ${userName}!`);<br>
-  }<br>
-  return console.log(`Congratulations, ${userName}!`);<br>
-};<br>
-export default sameGameLogic;<br>
-```</p>
-<p>6. Studied at Hexlet courses, made a one-page website and a small console game.</p>
-<p>7. Still unfinished courses, bachelor of university</p>
-<p>8. English level - B2. There was a practice of spoken English at a university lesson and a restaurant where I worked part-time (communicated with guests)</p>
-</div>
+  <main>
+    <h1>Konstantin Pershin</h1>
+    <article>
+      <h2>PROFILE</h2>
+      <hr>
+      <span>I am a 2nd year student at the Polytechnic University, I am fond of programming and want to work in this field. Studying web programming (CSS, HTML, JS). I like programming in itself, and the web precisely because you interact most with the visual component of the project</span>
+    </article>
+    <article>
+      <h2>CODE EXAMPLE</h2>
+      <hr>
+      <span>import readlineSync from 'readline-sync';<br>
+        const sameGameLogic = (question1, answer1, question2, answer2, question3,<br> answer3, userName) => {<br>
+        const numbers = [[question1, answer1], [question2, answer2], [question3, <br>answer3]];<br>
+        for (let i = 0; i < numbers.length; i += 1) {<br>
+        console.log(`Question: ${numbers[i][0]}`);<br>
+        const userAnswer = readlineSync.question('Your answer: ');<br>
+        if (userAnswer === numbers[i][1]) console.log('Correct!');<br>
+        else if (userAnswer !== numbers[i][1]) return console.log(`${userAnswer} is <br>wrong answer ;(. Correct answer was ${numbers[i][1]}. \nLet's try again, ${userName}!`);<br>
+        }<br>
+        return console.log(`Congratulations, ${userName}!`);<br>
+        };<br>
+        export default sameGameLogic;</span>
+    </article>
+    <article>
+      <h2>EDUCATION</h2>
+      <hr>
+      <span>Still unfinished courses, bachelor of university</span>
+    </article>
+    <article>
+      <h2>ENGLISH LEVEL - B2</h2>
+      <hr>
+      <span>There was a practice of spoken English at a university lesson and a restaurant where I worked part-time (communicated with guests)</span>
+    </article>
+    <article>
+      <h2>COURSES</h2>
+      <hr>
+      <span>Studied at Hexlet courses, made a one-page website and a small console game</span>
+    </article>
+  </main>
 
 </body>
+
 </html>
