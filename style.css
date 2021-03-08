@@ -19,8 +19,7 @@ body {
 
 main {
     width: 650px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding:0 80px 80px 80px;
 }
 
 main h1 {
@@ -44,7 +43,6 @@ nav {
     width: 280px;
     padding-top: 50px;
     padding-left: 50px;
-    padding-bottom: 35px;
     color:#FFFFFF;
 }
 
@@ -62,6 +60,10 @@ aside h4 {
     font-weight: normal;
 }
 
+.contact h4 {
+    margin-bottom:0 ;
+}
+
 aside img {
     height: 180px;
     border-radius: 200px;
@@ -71,6 +73,20 @@ aside img {
     font-weight: 200;
     font-size: 14px;
 }
+
+.img-span-phone {
+    margin-top: 5px;
+    margin-right: 25px;
+    float: left;
+}
+
+.img-span-mail {
+    margin-top: 5px;
+    margin-right: 25px;
+    float: left;
+}
+
+
 
 aside span a {
     color: #FFFFFF;
@@ -126,4 +142,5 @@ span.scale-CommandLine {
     width: 120px;
     height: 8px;
 }
+
 
